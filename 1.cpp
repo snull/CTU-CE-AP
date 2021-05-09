@@ -39,7 +39,6 @@ int main(){
     x=student[i].getmark();
     y=student[i+1].getmark();
     if (x<y){
-      cout<<endl<<x<<" *** "<<y<<" *** "<<i<<endl;
       temp=student[i];
       student[i]=student[i+1];
       student[i+1]=temp;
